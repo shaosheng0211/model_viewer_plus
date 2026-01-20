@@ -1,0 +1,53 @@
+name: flutter_application
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  model_viewer_plus: ^1.7.0
+  device_preview: ^1.2.0
+  firebase_core: ^2.24.0
+  firebase_database: ^10.4.5
+  provider: ^6.0.5
+  google_maps_flutter: ^2.2.1
+  # geolocator: ^10.1.0
+  geocoding: ^2.1.0
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/snack1.glb
+    - assets/shirt1.glb
+    - assets/electronic1.glb
+    - assets/shoes1.glb
+    - assets/parcel1.jpg
+    - assets/avatar.png
+    - assets/visa.png
+    - assets/mastercard.png
+    - assets/amex.jpg
+    - assets/crocs_slipper.glb
+    - assets/gaming_headset.glb
+    - assets/iphone_12_pro.glb
+    - assets/labubu_box.glb
+    - assets/office_chair.glb
+    - assets/retro_radio.glb
+    - assets/smart_speaker.glb
+    
